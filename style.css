@@ -1,0 +1,132 @@
+body{
+
+   font-family:'Poppins', sans-serif; ;/* FUENTE  */
+
+    background: rgb(237, 235, 231));
+    max-width: 900px; /* ANCHO MAXIMO DE LA PAGINA */
+    margin: 0 auto; /* MARGEN DE LA PAGINA */
+}
+
+nav{
+    width: 100%; /* Ancho */
+    height: 160px;
+    background-color: rgb(239, 123, 204); /* COLOR DE FONDO  */
+}
+
+nav ul li {
+    list-style-type: none;
+    display:inline-block;
+    transition: 0.8s all;
+    padding: 18px 20px;
+}
+nav ul li :hover{ /* cuando este sobre un elemento suceda algo */
+    background-color: rgba(255, 255, 255, 0.781);
+}
+
+.img-logo{
+    width: 100px;/* ancho */
+    padding: 10px; /* alto */
+    padding-right: 10%;
+}
+
+nav ul{
+    padding-top: 90px; /* relleno superior */
+    display: inline-flex;
+    
+}
+
+nav ul li a {
+    text-decoration: none; /* Decoracion de texto */
+    color: black;/* Color de letra */
+}
+
+h2,figure, ul{
+    margin: 0%;
+}
+
+img{
+    max-width: 100%;
+   
+}
+
+/* ESTILOS DE LA SECCION 1 */
+
+.seccion1{
+    background-color:rgb(175, 203, 133);
+}
+.video{
+    width: 55%;
+    padding: 15px;
+}
+.texto{
+    width: 30%;
+    padding: 15px;
+    vertical-align:top ;
+}
+article{
+    padding: 30px;
+    background-color: beige;
+}
+
+article h2{
+    border-bottom:  1px solid black;
+}
+
+.texto,.video{
+    display: inline-block;
+
+}
+
+.boton{
+    text-align: center;/* Alinear el texto */
+    background-color: rgb(68, 133, 87);
+    padding: 10px;
+}
+.boton a{
+    text-decoration: none;
+    color: white;
+}
+
+.boton:hover{
+    background: rgb(194, 249, 112);
+}
+
+/* ARTICLES */
+
+section{
+   background-color: aquamarine; 
+   padding: 15px;
+   text-align: center;
+}
+
+section h2{
+    border-bottom:  1px solid black;
+}
+
+.img-art{
+    max-width: 100%;
+}
+.cont-art{
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+
+}
+footer{
+    background-color: blueviolet;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    padding: 45px;
+}
+
+footer div a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+    
+
+
